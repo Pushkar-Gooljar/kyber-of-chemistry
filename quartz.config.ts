@@ -6,6 +6,7 @@ import { ImageCaption } from "./quartz/plugins/transformers/caption"
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
+
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Chemistry Notes",
