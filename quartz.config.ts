@@ -1,6 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-
+import { ImageCaption } from "./quartz/plugins/transformers/caption"
 /**
  * Quartz 4 Configuration
  *
@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Chemistry Notes",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,8 +16,8 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "chemistry.pushthecar.com",
+    ignorePatterns: ["private", "templates", ".obsidian", "00_Templates"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -55,6 +55,7 @@ const config: QuartzConfig = {
   },
   plugins: {
     transformers: [
+
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
@@ -71,9 +72,28 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+      ImageCaption(),
+      Plugin.Latex({ renderEngine: "mathjax" }),
     ],
-    filters: [Plugin.RemoveDrafts()],
+    filters: [
+      Plugin.RemoveDrafts(),
+ {
+        name: "ExcludeExcalidrawFiles",
+        shouldPublish(_ctx, [_tree, file]) {
+          // "file.data.filePath" contains the relative path (e.g. "01_Excalidraw/drawing.md")
+          const filePath = file.data.filePath as string | undefined
+          
+          // If the path exists and starts with your folder, return false (don't publish)
+          if (filePath && filePath.startsWith("01_Excalidraw/")) {
+            return false
+          }
+          
+          return true
+        },
+      },
+
+    
+    ],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
