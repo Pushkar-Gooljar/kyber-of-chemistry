@@ -1,6 +1,6 @@
 ## Welcome 
 
 ## Topics
-### [[7. Equilibria|7. Equilibria (AS/A)]]
+### [[7. Equilibria|7. Equilibria (AS & A)]]
 
 
