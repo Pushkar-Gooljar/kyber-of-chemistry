@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"025ad3822f7f809f","type":"text","text":"<h1 align=\"center\">Alcohol</h1>\n","x":-240,"y":-67,"width":220,"height":67,"color":"4"},
+		{"id":"93a47298a6d1d4db","x":-240,"y":40,"width":221,"height":80,"color":"1","type":"text","text":"$$\n\\Large\n\\ce{K_{2}Cr_{2}O_{7}}\n$$"},
+		{"id":"bd58961584684481","type":"text","text":"<h2 align=\"center\">Secondary</h2>\n","x":-239,"y":260,"width":220,"height":67},
+		{"id":"cdc224eaa19fded0","type":"text","text":"<h2 align=\"center\">Tertiary</h2>\n","x":21,"y":260,"width":220,"height":67},
+		{"id":"b1dfc964f1bd1221","type":"text","text":"<h2 align=\"center\">Primary</h2>\n\n","x":-499,"y":260,"width":220,"height":67},
+		{"id":"2327fb25636c477d","x":-499,"y":380,"width":220,"height":100,"color":"6","type":"text","text":"- Heat gently and distil\n- Partial Oxidation"},
+		{"id":"d7f848b3e9303fe3","type":"text","text":"<h1 align=\"center\">Aldehyde</h1>\n","x":-499,"y":540,"width":220,"height":67,"color":"4"},
+		{"id":"a1493c6f92cb7fff","type":"text","text":"<h1 align=\"center\">Ketone</h1>\n","x":-239,"y":540,"width":220,"height":67,"color":"4"},
+		{"id":"509c0c6b8875a280","type":"text","text":"- Heat under reflux\n- Oxidation","x":-240,"y":380,"width":220,"height":100,"color":"6"},
+		{"id":"a395604d24aded73","x":21,"y":380,"width":220,"height":100,"type":"text","text":"No reaction"},
+		{"id":"47dab222e617fdf4","x":-229,"y":700,"width":201,"height":80,"color":"1","type":"text","text":"$$\n\\Large\n\\ce{KCN + HCN}\n$$"},
+		{"id":"8033feda9ade5954","type":"text","text":"<h1 align=\"center\">Hydroxynitrile</h1>\n","x":-238,"y":880,"width":220,"height":67,"color":"4"},
+		{"id":"1444c32da94a2d55","type":"text","text":"<h1 align=\"center\">Aldehyde</h1>\n","x":-499,"y":700,"width":220,"height":67,"color":"4"}
+	],
+	"edges":[
+		{"id":"38e27831a02fbc23","fromNode":"b1dfc964f1bd1221","fromSide":"bottom","toNode":"d7f848b3e9303fe3","toSide":"top","color":"1"},
+		{"id":"d273a4471908e765","fromNode":"025ad3822f7f809f","fromSide":"bottom","toNode":"93a47298a6d1d4db","toSide":"top"},
+		{"id":"16a917f5e1ba38b2","fromNode":"93a47298a6d1d4db","fromSide":"bottom","toNode":"b1dfc964f1bd1221","toSide":"top"},
+		{"id":"e84264c023aef2c5","fromNode":"93a47298a6d1d4db","fromSide":"bottom","toNode":"bd58961584684481","toSide":"top"},
+		{"id":"4e808d6a06bfb979","fromNode":"93a47298a6d1d4db","fromSide":"bottom","toNode":"cdc224eaa19fded0","toSide":"top"},
+		{"id":"9c52da5af4873d78","fromNode":"bd58961584684481","fromSide":"bottom","toNode":"a1493c6f92cb7fff","toSide":"top","color":"1"},
+		{"id":"48a3a7e26ba7e930","fromNode":"cdc224eaa19fded0","fromSide":"bottom","toNode":"a395604d24aded73","toSide":"top"},
+		{"id":"98bd30b16bc3fcc3","fromNode":"d7f848b3e9303fe3","fromSide":"bottom","toNode":"47dab222e617fdf4","toSide":"top"},
+		{"id":"bb9e19ee5d69105a","fromNode":"a1493c6f92cb7fff","fromSide":"bottom","toNode":"47dab222e617fdf4","toSide":"top"},
+		{"id":"05f4e871ea0598c6","fromNode":"47dab222e617fdf4","fromSide":"bottom","toNode":"8033feda9ade5954","toSide":"top","color":"1","label":"Nucleophilic Addition"},
+		{"id":"89f7f9746eb5bec0","fromNode":"d7f848b3e9303fe3","fromSide":"bottom","toNode":"1444c32da94a2d55","toSide":"top"}
+	]
+}
