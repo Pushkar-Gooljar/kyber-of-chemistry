@@ -14,7 +14,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: "G-LE408QDE2T",
     },
     locale: "en-US",
     baseUrl: "chemistry.pushthecar.com",
