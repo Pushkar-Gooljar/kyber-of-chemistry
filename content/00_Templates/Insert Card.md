@@ -1,1 +1,2 @@
->[!card] INSERT_YOUR_TITLE_HERE
+> [!card] <% tp.file.cursor() %>
+

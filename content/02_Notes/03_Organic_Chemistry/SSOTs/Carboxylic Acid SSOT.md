@@ -48,3 +48,82 @@ cssclasses:
 
 
 # Preparation of Carboxylic Acids
+## Oxidation of Primary Alcohol / Aldehyde
+
+> [!card] State the substance that can be oxidised to form carboxylic acids
+> - Primary Alcohols
+> - Aldehydes
+
+> [!card] Explain why only primary alcohols can be oxidised to prepare carboxylic acids.
+> - Primary alcohols are first oxidised to aldehydes, which are then oxidised to carboxylic acids.
+> - Secondary alcohols are oxidised to ketones which are not easily oxidised further.
+> - Tertiary alcohols cannot be oxidised
+
+
+
+> [!card] Give the reagents and conditions for the preparation of carboxylic acid from primary alcohol or aldehyde.
+> **Reagents:** Acidified $\ce{KMnO_{4}}$ or $\ce{K_{2}Cr_{2}O_{7}}$
+> **Conditions:** Heat under reflux
+
+
+
+## Hydrolysis of Nitriles ($\ce{-C#N}$)
+
+> [!card] State how carboxylic acids may be obtained using nitriles.
+> - Acid hydrolysis
+> - Alkaline hydrolysis
+
+
+### Acid Hydrolysis
+
+
+> [!card] State the reagents and conditions for acid hydrolysis of nitriles to form carboxylic acids.
+> - **Reagents:** dilute acid, e.g. $\ce{H_{2}SO_{4}(aq)}$ or $\ce{HCl(aq)}$
+> - **Conditions:** Heat under reflux
+
+> [!card] Give the equation for the acid hydrolysis of a nitrile $\ce{RCN}$ to give a carboxylic acid $\ce{RCOOH}$
+> $$\ce{R-CN + H+ + 2H_{2}O -> R-COOH + NH_{4}+}$$
+
+> [!card] Give the equation for the hydrolysis of ethanenitrile using $\ce{HCl}$
+> $$\ce{CH_{3}CN + HCl + 2H_{2}O -> CH_{3}COOH + NH_{4}Cl}$$
+
+
+
+### Alkaline Hydrolysis
+
+> [!card] Give the reagents and conditions for the alkaline hydrolysis of nitriles to form carboxylic acids.
+> **Reagents:** dilute alkali, e.g. $\ce{NaOH}$
+> **Conditions:** Heat under reflux
+
+> [!card] Give the equation for the alkaline hydrolysis of a nitrile $\ce{RCN}$ 
+> $$\ce{R-CN + OH- + H_{2}O-> RCOO- + NH_{3}}$$
+
+> [!card] Give the equation for the alkaline hydrolysis of ethanenitrile with $\ce{NaOH}$
+> $$\ce{CH_{3}CN + NaOH + H_{2}O -> CH_{3}COONa + NH_{3}}$$
+
+> [!card] State the products of the alkaline hydrolysis of nitriles
+> - Carboxylate ion
+> - Ammonia gas
+
+> [!card] State how you would obtain a carboxylic acid from the alkaline hydrolysis of a nitrile.
+> - Acidify the products of the alkaline hydrolysis (carboxylate) using a strong dilute acid.
+
+> [!card] Explain why a carboxylic acid is not directly formed in the alkaline hydrolysis of a nitrile.
+> - The reaction occurs in an alkaline medium
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
