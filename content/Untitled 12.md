@@ -1,1 +1,0 @@
-![CAPTION|76](https://www.ebi.ac.uk/opsin/ws/1-phenylethylamide.svg)
