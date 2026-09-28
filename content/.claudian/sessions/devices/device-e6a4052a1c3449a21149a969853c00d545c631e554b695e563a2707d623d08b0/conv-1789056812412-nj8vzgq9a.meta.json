@@ -1,0 +1,24 @@
+{
+  "id": "conv-1789056812412-nj8vzgq9a",
+  "providerId": "claude",
+  "title": "Casual greeting",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789056812426,
+  "lastActivityAt": 1789057304298,
+  "sessionId": "a9b057d2-4d19-40ad-9d23-bef1f97aa227",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "a9b057d2-4d19-40ad-9d23-bef1f97aa227"
+  },
+  "linkedContentPath": "02_Notes/02_Inorganic_Chemistry/Transitions/Master.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 8,
+    "cacheCreationInputTokens": 352,
+    "cacheReadInputTokens": 18810,
+    "contextWindow": 200000,
+    "contextTokens": 19170,
+    "percentage": 10,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1789056812412-nj8vzgq9a",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789057293062-9ans904",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1789057293037-g60impa",
+      "timestamp": 1789057293037,
+      "rawDisplayText": "hey claudy boy",
+      "canonicalText": "hey claudy boy",
+      "context": {
+        "linkedContent": {
+          "path": "02_Notes/02_Inorganic_Chemistry/Transitions/Master.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "b49b86f4e24b985007a9561160448a9b4948e7cc36b60cdad238238fab8c3c24",
+      "providerUserMessageId": "06bc4463-a69d-4114-a049-4335b2f5d905",
+      "providerAssistantMessageId": "1a5807e6-6099-44a0-ae99-1971fc87c8f5"
+    }
+  ]
+}

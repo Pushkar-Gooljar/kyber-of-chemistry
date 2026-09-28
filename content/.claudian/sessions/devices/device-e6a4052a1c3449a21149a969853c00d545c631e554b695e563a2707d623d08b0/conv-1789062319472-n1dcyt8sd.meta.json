@@ -1,0 +1,23 @@
+{
+  "id": "conv-1789062319472-n1dcyt8sd",
+  "providerId": "claude",
+  "title": "Transition metal complexes study guide",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789062319479,
+  "lastActivityAt": 1789062347819,
+  "sessionId": "2adf1dd0-c88c-4386-add7-56394d88e1da",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "2adf1dd0-c88c-4386-add7-56394d88e1da"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 10,
+    "cacheCreationInputTokens": 750,
+    "cacheReadInputTokens": 29314,
+    "contextWindow": 200000,
+    "contextTokens": 30074,
+    "percentage": 15,
+    "contextWindowIsAuthoritative": true
+  }
+}

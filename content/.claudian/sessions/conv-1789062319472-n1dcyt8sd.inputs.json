@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1789062319472-n1dcyt8sd",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789062319538-ywu9rev",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1789062319469-u4w93jp",
+      "timestamp": 1789062319469,
+      "rawDisplayText": "@02_Notes/02_Inorganic_Chemistry/Transitions/Master.md",
+      "canonicalText": "@02_Notes/02_Inorganic_Chemistry/Transitions/Master.md",
+      "images": [],
+      "contentDigest": "32f2c3120d1a3f667786928a25874e35e1807ae88bc0e58864bd731d97670e23",
+      "providerUserMessageId": "e170e199-7c55-4fd0-a8c5-27237674b959",
+      "providerAssistantMessageId": "f13704ad-cf82-4abb-ab02-af8f8156966c"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789062338095-j041xrg",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1789062338091-eyott0x",
+      "timestamp": 1789062338091,
+      "rawDisplayText": "is there a general definition for a ligand",
+      "canonicalText": "is there a general definition for a ligand",
+      "images": [],
+      "contentDigest": "40eb557533cfaec4c3f224c996e04a2e9fdd736beac49d260c3becddc9b58586",
+      "providerUserMessageId": "ce33b915-8952-489c-9e4e-2e1d6f340a95",
+      "providerAssistantMessageId": "813868c2-321c-4588-8c2b-b1fbd2c3aaaf"
+    }
+  ]
+}
